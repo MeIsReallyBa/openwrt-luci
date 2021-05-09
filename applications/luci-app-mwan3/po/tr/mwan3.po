@@ -1,20 +1,20 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-01-03 17:29+0000\n"
-"Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
+"PO-Revision-Date: 2021-05-07 17:19+0000\n"
+"Last-Translator: Mete <selimmeteozdogan@gmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsmwan3/tr/>\n"
 "Language: tr\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.4.1-dev\n"
+"X-Generator: Weblate 4.7-dev\n"
 
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/interfaceconfig.lua:171
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/interfaceconfig.lua:187
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/interfaceconfig.lua:207
 msgid "%d hour"
-msgstr ""
+msgstr "%d saat"
 
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/interfaceconfig.lua:166
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/interfaceconfig.lua:182
@@ -135,12 +135,12 @@ msgstr ""
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/rule.lua:81
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/ruleconfig.lua:29
 msgid "Destination address"
-msgstr ""
+msgstr "Hedef adres"
 
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/rule.lua:87
 #: applications/luci-app-mwan3/luasrc/model/cbi/mwan/ruleconfig.lua:33
 msgid "Destination port"
-msgstr ""
+msgstr "Hedef port"
 
 #: applications/luci-app-mwan3/luasrc/view/mwan/status_detail.htm:11
 #: applications/luci-app-mwan3/luasrc/view/mwan/status_diagnostics.htm:11

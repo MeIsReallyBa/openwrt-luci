@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"PO-Revision-Date: 2021-01-28 10:32+0000\n"
-"Last-Translator: akibou <jinwenxin1997@icloud.com>\n"
+"PO-Revision-Date: 2021-05-02 20:06+0000\n"
+"Last-Translator: Trevor <wowpapa3232@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/"
 "openwrt/luci/zh_Hant/>\n"
 "Language: zh_Hant\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.5-dev\n"
+"X-Generator: Weblate 4.7-dev\n"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:916
 msgid "%.1f dB"
@@ -26,7 +26,7 @@ msgstr "%d 個無效欄位"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/switch.js:35
 msgid "%s is untagged in multiple VLANs!"
-msgstr "%s 尚未標籤在多個 VLAN ！"
+msgstr "%s 在多個 VLAN 中未選！"
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/bandwidth.js:294
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/connections.js:403
@@ -56,8 +56,8 @@ msgid "-- Additional Field --"
 msgstr "-- 額外欄位 --"
 
 #: modules/luci-base/htdocs/luci-static/resources/cbi.js:275
-#: modules/luci-base/htdocs/luci-static/resources/form.js:3186
-#: modules/luci-base/htdocs/luci-static/resources/form.js:3518
+#: modules/luci-base/htdocs/luci-static/resources/form.js:3189
+#: modules/luci-base/htdocs/luci-static/resources/form.js:3521
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:729
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:967
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:1938
@@ -349,12 +349,12 @@ msgstr "啟用連線"
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:33
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/40_dhcp.js:92
 msgid "Active DHCP Leases"
-msgstr "已分配的DHCP租用"
+msgstr "已分配的 DHCP 租用"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:52
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/40_dhcp.js:94
 msgid "Active DHCPv6 Leases"
-msgstr "已分配的DHCPv6租用"
+msgstr "已分配的 DHCPv6 租用"
 
 #: modules/luci-base/htdocs/luci-static/resources/network.js:3644
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:922
@@ -362,11 +362,11 @@ msgstr "已分配的DHCPv6租用"
 msgid "Ad-Hoc"
 msgstr "無線漫遊(Ad-Hoc)"
 
-#: modules/luci-base/htdocs/luci-static/resources/form.js:1998
 #: modules/luci-base/htdocs/luci-static/resources/form.js:2001
-#: modules/luci-base/htdocs/luci-static/resources/form.js:2015
-#: modules/luci-base/htdocs/luci-static/resources/form.js:2016
-#: modules/luci-base/htdocs/luci-static/resources/form.js:3001
+#: modules/luci-base/htdocs/luci-static/resources/form.js:2004
+#: modules/luci-base/htdocs/luci-static/resources/form.js:2018
+#: modules/luci-base/htdocs/luci-static/resources/form.js:2019
+#: modules/luci-base/htdocs/luci-static/resources/form.js:3004
 #: modules/luci-compat/luasrc/view/cbi/nsection.htm:25
 #: modules/luci-compat/luasrc/view/cbi/tblsection.htm:189
 #: modules/luci-compat/luasrc/view/cbi/tblsection.htm:197
@@ -465,7 +465,7 @@ msgstr "進階設定"
 msgid "Aggregate Transmit Power (ACTATP)"
 msgstr "彙總發送功率(ACTATP)"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:169
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:176
 msgid "Alert"
 msgstr "警示"
 
@@ -553,6 +553,10 @@ msgstr ""
 #: modules/luci-base/htdocs/luci-static/resources/form.js:588
 msgid "An error occurred while saving the form:"
 msgstr "儲存表單時發生錯誤："
+
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:123
+msgid "An optional, short description for this device"
+msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:877
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/50_dsl.js:20
@@ -682,7 +686,7 @@ msgstr "分配使用此十六進制子前綴ID的前綴部分於此介面."
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2039
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/60_wifi.js:233
 msgid "Associated Stations"
-msgstr "已連接站台群"
+msgstr "已連接裝置"
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/60_wifi.js:38
 msgid "Associations"
@@ -1058,7 +1062,7 @@ msgstr "Cisco UDP 對裝"
 msgid ""
 "Click \"Generate archive\" to download a tar archive of the current "
 "configuration files."
-msgstr "按下\"製作壓縮檔\"就能下載目前設定檔的tar格式的壓縮."
+msgstr "按下「製作壓縮檔」就能下載目前設定檔的 tar 格式的壓縮。"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:393
 msgid ""
@@ -1225,13 +1229,13 @@ msgstr "建立/指定防火牆作用區"
 msgid "Create interface"
 msgstr "建立介面"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:168
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:175
 msgid "Critical"
 msgstr "致命錯誤"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:172
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:179
 msgid "Cron Log Level"
-msgstr "Cron日誌等級"
+msgstr "Cron 日誌等級"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:527
 msgid "Current power"
@@ -1367,8 +1371,8 @@ msgstr "DHCP獨立式別碼DUID"
 msgid "Data Rate"
 msgstr "資料速率"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:163
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:174
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:170
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:181
 msgid "Debug"
 msgstr "除錯"
 
@@ -1410,10 +1414,10 @@ msgstr ""
 "定義額外的DHCP選項,例如\"<code>6,192.168.2.1,192.168.2.2</code>\"將會通告不同"
 "的DNS伺服器到客戶端."
 
-#: modules/luci-base/htdocs/luci-static/resources/form.js:2068
-#: modules/luci-base/htdocs/luci-static/resources/form.js:2493
-#: modules/luci-base/htdocs/luci-static/resources/form.js:2497
-#: modules/luci-base/htdocs/luci-static/resources/form.js:2985
+#: modules/luci-base/htdocs/luci-static/resources/form.js:2071
+#: modules/luci-base/htdocs/luci-static/resources/form.js:2496
+#: modules/luci-base/htdocs/luci-static/resources/form.js:2500
+#: modules/luci-base/htdocs/luci-static/resources/form.js:2988
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:2836
 #: modules/luci-compat/luasrc/view/cbi/nsection.htm:11
 #: modules/luci-compat/luasrc/view/cbi/tblsection.htm:162
@@ -1438,6 +1442,7 @@ msgstr "刪除這個網路"
 msgid "Delivery Traffic Indication Message Interval"
 msgstr "傳送流量指示訊息間隔"
 
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:123
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:109
 msgid "Description"
 msgstr "描述"
@@ -1446,9 +1451,9 @@ msgstr "描述"
 msgid "Deselect"
 msgstr "取消選擇"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:218
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:225
 msgid "Design"
-msgstr "設計規劃"
+msgstr "主題"
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/connections.js:384
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/iptables.js:70
@@ -1570,14 +1575,14 @@ msgid "Disconnection attempt failed"
 msgstr "嘗試中斷線連失敗"
 
 #: modules/luci-base/htdocs/luci-static/resources/form.js:591
-#: modules/luci-base/htdocs/luci-static/resources/form.js:2692
+#: modules/luci-base/htdocs/luci-static/resources/form.js:2695
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:3273
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:4009
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:4098
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1649
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:328
 msgid "Dismiss"
-msgstr "結束"
+msgstr "關閉"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:888
 msgid "Distance Optimization"
@@ -1671,7 +1676,7 @@ msgstr "下載 mtdblock"
 msgid "Downstream SNR offset"
 msgstr "下載串流 SNR 位移"
 
-#: modules/luci-base/htdocs/luci-static/resources/form.js:2451
+#: modules/luci-base/htdocs/luci-static/resources/form.js:2454
 msgid "Drag to reorder"
 msgstr "拖動來排序"
 
@@ -1714,9 +1719,9 @@ msgstr "EA-位元長度"
 msgid "EAP-Method"
 msgstr "可擴展身份驗證協定(EAP)-方式"
 
-#: modules/luci-base/htdocs/luci-static/resources/form.js:2471
 #: modules/luci-base/htdocs/luci-static/resources/form.js:2474
-#: modules/luci-base/htdocs/luci-static/resources/form.js:2848
+#: modules/luci-base/htdocs/luci-static/resources/form.js:2477
+#: modules/luci-base/htdocs/luci-static/resources/form.js:2851
 #: modules/luci-compat/luasrc/view/cbi/tblsection.htm:154
 #: modules/luci-compat/luasrc/view/cbi/tblsection.htm:160
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:337
@@ -1738,7 +1743,7 @@ msgstr "編輯此網路"
 msgid "Edit wireless network"
 msgstr "編輯無線網路"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:170
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:177
 msgid "Emergency"
 msgstr "緊急"
 
@@ -1785,7 +1790,7 @@ msgstr "啟用PPP連結上的IPv6交涉"
 msgid "Enable Jumbo Frame passthrough"
 msgstr "啟用超大訊框透穿"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:238
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:245
 msgid "Enable NTP client"
 msgstr "啟用 NTP用戶端"
 
@@ -1900,7 +1905,7 @@ msgstr "刪除中..."
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:102
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:103
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:104
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:167
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:174
 msgid "Error"
 msgstr "錯誤"
 
@@ -1963,15 +1968,15 @@ msgstr "外部 R0 金鑰持有者清單"
 msgid "External R1 Key Holder List"
 msgstr "外部 R1 金鑰持有者清單"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:144
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:151
 msgid "External system log server"
 msgstr "外部系統日誌伺服器"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:149
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:156
 msgid "External system log server port"
 msgstr "外部系統日誌伺服器埠號"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:154
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:161
 msgid "External system log server protocol"
 msgstr "外部系統日誌伺服器通訊協定"
 
@@ -2082,11 +2087,11 @@ msgstr "外發DNS請求的固定來源埠號"
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:281
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:418
 msgid "Flash image..."
-msgstr "燒錄映像檔..."
+msgstr "更新韌體..."
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:277
 msgid "Flash image?"
-msgstr "要燒錄映像檔嗎？"
+msgstr "要更新韌體嗎？"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:408
 msgid "Flash new firmware image"
@@ -2094,7 +2099,7 @@ msgstr "燒錄新版韌體映像檔"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:354
 msgid "Flash operations"
-msgstr "燒錄程序"
+msgstr "韌體工具"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:286
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:288
@@ -2258,8 +2263,8 @@ msgstr "全域網路選項"
 msgid "Go to password configuration..."
 msgstr "前往密碼設定..."
 
-#: modules/luci-base/htdocs/luci-static/resources/form.js:2393
-#: modules/luci-base/htdocs/luci-static/resources/form.js:3153
+#: modules/luci-base/htdocs/luci-static/resources/form.js:2396
+#: modules/luci-base/htdocs/luci-static/resources/form.js:3156
 #: modules/luci-compat/luasrc/view/cbi/full_valueheader.htm:4
 #: modules/luci-compat/luasrc/view/cbi/tblsection.htm:58
 msgid "Go to relevant configuration page"
@@ -2293,7 +2298,7 @@ msgstr "標頭錯誤原碼錯誤(HEC)"
 msgid ""
 "Here you can configure the basic aspects of your device like its hostname or "
 "the timezone."
-msgstr "在這裡設定基本設定值，如主機名稱或者時區...等。"
+msgstr "在這裡設定基本設定值，如主機名稱、時區...等。"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1059
 msgid "Hide <abbr title=\"Extended Service Set Identifier\">ESSID</abbr>"
@@ -2633,7 +2638,7 @@ msgstr "忽視解析文件"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:416
 msgid "Image"
-msgstr "影像檔"
+msgstr "映像檔"
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/iptables.js:67
 msgid "In"
@@ -2680,7 +2685,7 @@ msgstr "傳入金鑰"
 msgid "Incoming serialization"
 msgstr "傳入序列化"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:164
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:171
 msgid "Info"
 msgstr "資訊"
 
@@ -2954,7 +2959,7 @@ msgstr "LLC邏輯鏈結控制層"
 msgid "Label"
 msgstr "標籤"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:207
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:214
 msgid "Language"
 msgstr "語言"
 
@@ -3086,7 +3091,7 @@ msgstr "監聽介面"
 
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:55
 msgid "Listen Port"
-msgstr "監聽埠號"
+msgstr "監聽連接埠"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/dropbear.js:17
 msgid "Listen only on the given interface or, if unspecified, on all"
@@ -3186,7 +3191,7 @@ msgstr "本地化網路請求"
 msgid "Lock to BSSID"
 msgstr "鎖定 BSSID"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:162
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:169
 msgid "Log output level"
 msgstr "日誌輸出等級"
 
@@ -3196,7 +3201,7 @@ msgstr "日誌查詢"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:107
 msgid "Logging"
-msgstr "記錄中"
+msgstr "日誌"
 
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/grev6.js:57
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/grev6tap.js:57
@@ -3241,19 +3246,19 @@ msgstr "MAC"
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/routes.js:155
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/routes.js:173
 msgid "MAC-Address"
-msgstr "MAC-位址"
+msgstr "MAC 位址"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1004
 msgid "MAC-Address Filter"
-msgstr "MAC-位址過濾"
+msgstr "MAC 位址過濾"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:916
 msgid "MAC-Filter"
-msgstr "MAC-過濾"
+msgstr "MAC 過濾"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1011
 msgid "MAC-List"
-msgstr "MAC-清單"
+msgstr "MAC 清單"
 
 #: modules/luci-compat/luasrc/model/network/proto_4x6.lua:16
 #: protocols/luci-proto-ipv6/htdocs/luci-static/resources/protocol/map.js:13
@@ -3446,9 +3451,9 @@ msgstr "監視"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/password.js:31
 msgid "More Characters"
-msgstr "更多字元集"
+msgstr "字元過少"
 
-#: modules/luci-base/htdocs/luci-static/resources/form.js:2335
+#: modules/luci-base/htdocs/luci-static/resources/form.js:2338
 msgid "More…"
 msgstr "更多…"
 
@@ -3540,11 +3545,11 @@ msgstr "NDP-代理伺服器"
 msgid "NT Domain"
 msgstr "微軟NT網域"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:272
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:279
 msgid "NTP server candidates"
 msgstr "候選 NTP 伺服器"
 
-#: modules/luci-base/htdocs/luci-static/resources/form.js:2373
+#: modules/luci-base/htdocs/luci-static/resources/form.js:2376
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:3749
 #: modules/luci-compat/luasrc/view/cbi/tblsection.htm:27
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:708
@@ -3597,7 +3602,7 @@ msgstr "新介面名稱…"
 msgid "Next »"
 msgstr "下一個 »"
 
-#: modules/luci-base/htdocs/luci-static/resources/form.js:3457
+#: modules/luci-base/htdocs/luci-static/resources/form.js:3460
 #: protocols/luci-proto-vpnc/htdocs/luci-static/resources/protocol/vpnc.js:108
 msgid "No"
 msgstr "不"
@@ -3608,7 +3613,7 @@ msgstr "在這個介面尚無DHCP伺服器"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1295
 msgid "No Encryption"
-msgstr "無加密"
+msgstr "無加密網路"
 
 #: protocols/luci-proto-vpnc/htdocs/luci-static/resources/protocol/vpnc.js:89
 msgid "No NAT-T"
@@ -3710,7 +3715,7 @@ msgstr "非-萬用字元"
 msgid "None"
 msgstr "無"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:175
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:182
 msgid "Normal"
 msgstr "正常"
 
@@ -3742,7 +3747,11 @@ msgstr "開機時未啟動"
 msgid "Not supported"
 msgstr "不支援"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:165
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:126
+msgid "Notes"
+msgstr ""
+
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:172
 msgid "Notice"
 msgstr "注意"
 
@@ -3754,7 +3763,7 @@ msgstr "名稱伺服器查詢"
 msgid "Number of cached DNS entries (max is 10000, 0 is no caching)"
 msgstr "快取DNS項目數量(最大值為10000,輸入0代表不快取)"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:197
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:204
 msgid "Number of parallel threads used for compression"
 msgstr "用於壓縮的並行執行序"
 
@@ -3833,12 +3842,12 @@ msgstr "OpenConnect (思科 AnyConnect)"
 msgid "Operating frequency"
 msgstr "操作頻率"
 
-#: modules/luci-base/htdocs/luci-static/resources/form.js:1802
-#: modules/luci-base/htdocs/luci-static/resources/form.js:3467
+#: modules/luci-base/htdocs/luci-static/resources/form.js:1805
+#: modules/luci-base/htdocs/luci-static/resources/form.js:3470
 msgid "Option \"%s\" contains an invalid input value."
 msgstr "選項 \"%s\" 含有無效的輸入數值。"
 
-#: modules/luci-base/htdocs/luci-static/resources/form.js:1815
+#: modules/luci-base/htdocs/luci-static/resources/form.js:1818
 msgid "Option \"%s\" must not be empty."
 msgstr "選項 \"%s\" 必須不能為空值。"
 
@@ -3854,6 +3863,10 @@ msgstr "選項已移除"
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:67
 msgid "Optional"
 msgstr "選擇性"
+
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:126
+msgid "Optional, free-form notes about this device"
+msgstr ""
 
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:77
 msgid ""
@@ -4291,7 +4304,7 @@ msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/switch.js:278
 msgid "Port status:"
-msgstr "埠狀態:"
+msgstr "埠狀態："
 
 #: modules/luci-base/htdocs/luci-static/resources/validation.js:492
 msgid "Potential negation of: %s"
@@ -4347,7 +4360,7 @@ msgstr "私鑰"
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/processes.js:64
 #: modules/luci-mod-status/root/usr/share/luci/menu.d/luci-mod-status.json:48
 msgid "Processes"
-msgstr "程序組"
+msgstr "處理程序"
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/50_dsl.js:21
 msgid "Profile"
@@ -4365,7 +4378,7 @@ msgstr "協定."
 msgid "Protocol"
 msgstr "協定"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:263
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:270
 msgid "Provide NTP server"
 msgstr "提供 NTP 伺服器"
 
@@ -4388,8 +4401,8 @@ msgid ""
 "device, paste an OpenSSH compatible public key line or drag a <code>.pub</"
 "code> file into the input field."
 msgstr ""
-"與使用普通密碼相比，公鑰允許免密碼的SSH登錄具有更高的安全性。為了上傳新金鑰到"
-"設備，請粘貼OpenSSH兼容的公鑰行或將<code>.pub</code>文件拖到輸入字段中。"
+"與使用普通密碼相比，公鑰允許免密碼的 SSH 登錄具有更高的安全性。要上傳新金鑰到"
+"設備，請貼上 OpenSSH 兼容的公鑰行或將 <code>.pub</code> 文件拖到文字框中。"
 
 #: modules/luci-base/htdocs/luci-static/resources/protocol/static.js:214
 msgid "Public prefix routed to this device for distribution to clients."
@@ -4530,7 +4543,7 @@ msgstr "引用"
 
 #: modules/luci-base/htdocs/luci-static/resources/luci.js:2700
 msgid "Refreshing"
-msgstr "重新整理中"
+msgstr "重新整理"
 
 #: modules/luci-compat/luasrc/model/network/proto_relay.lua:153
 #: protocols/luci-proto-relay/htdocs/luci-static/resources/protocol/relay.js:39
@@ -4851,7 +4864,7 @@ msgstr "SSH用戶名稱"
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/sshkeys.js:274
 #: modules/luci-mod-system/root/usr/share/luci/menu.d/luci-mod-system.json:41
 msgid "SSH-Keys"
-msgstr "SSH-金鑰"
+msgstr "SSH 金鑰"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:154
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:179
@@ -4864,7 +4877,7 @@ msgstr "SSID"
 msgid "SWAP"
 msgstr "SWAP"
 
-#: modules/luci-base/htdocs/luci-static/resources/form.js:2697
+#: modules/luci-base/htdocs/luci-static/resources/form.js:2700
 #: modules/luci-base/htdocs/luci-static/resources/luci.js:2180
 #: modules/luci-compat/luasrc/view/cbi/error.htm:17
 #: modules/luci-compat/luasrc/view/cbi/footer.htm:26
@@ -5050,7 +5063,7 @@ msgstr "容量"
 msgid "Size of DNS query cache"
 msgstr "DNS輪詢的快取大小"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:185
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:192
 msgid "Size of the ZRam device in megabytes"
 msgstr "ZRam設備的大小(以mb為單位)"
 
@@ -5090,8 +5103,8 @@ msgid ""
 "flashed manually. Please refer to the wiki for device specific install "
 "instructions."
 msgstr ""
-"抱歉, 沒有sysupgrade支援出現; 新版韌體映像檔必須手動更新. 請回歸wiki找尋特定"
-"設備安裝指引."
+"抱歉，沒有 sysupgrade 支援出現; 新版韌體映像檔必須手動更新，請至 Wiki 尋找特"
+"定設備安裝指南。"
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/connections.js:383
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/iptables.js:69
@@ -5325,7 +5338,7 @@ msgstr ""
 #: modules/luci-base/htdocs/luci-static/resources/network.js:2861
 #: modules/luci-compat/luasrc/model/network.lua:1425
 msgid "Switch VLAN"
-msgstr "交換VLAN"
+msgstr "交換器 VLAN"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:401
 msgid "Switch protocol"
@@ -5365,7 +5378,7 @@ msgstr "系統日誌"
 msgid "System Properties"
 msgstr "系統屬性"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:139
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:146
 msgid "System log buffer size"
 msgstr "系統日誌緩衝區大小"
 
@@ -5553,10 +5566,10 @@ msgid ""
 "segments. Often there is by default one Uplink port for a connection to the "
 "next greater network like the internet and other ports for a local network."
 msgstr ""
-"這設備的網路埠可以被組合到數個 <abbr title=\"Virtual Local Area Network"
-"\">VLAN</abbr>群, 以便在內的電腦可以直接跟別人互通. <abbr title=\"Virtual "
-"Local Area Network\">VLAN</abbr>群經常用來分割網路區段. 預設經常會有一個上傳"
-"埠來連接到下一個大型網路類似Intenet而其它埠則用來本地區網使用."
+"此設備的網路埠可以被組合到數個 <abbr title=\"Virtual Local Area Network"
+"\">VLAN</abbr>，以便在內的電腦可互通。 <abbr title=\"Virtual Local Area "
+"Network\">VLAN</abbr> 常用來分割網路區段。預設會有一個上傳埠來連接到下一個網"
+"路，像是 Internet ，而其它埠則供區網使用。"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:156
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/reboot.js:36
@@ -5629,7 +5642,7 @@ msgid ""
 "The uploaded image file does not contain a supported format. Make sure that "
 "you choose the generic image format for your platform."
 msgstr ""
-"以上傳的映像檔不包含支援格式. 請確認您選擇的是針對您的平台採用的通用映像檔."
+"以上傳的映像檔不包含支援格式，請確認您選擇的是針對您的平台採用的通用映像檔。"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:528
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:560
@@ -5734,8 +5747,8 @@ msgid ""
 "their status."
 msgstr "這清單提供目前正在執行的系統的執行緒和狀態的總覽."
 
-#: modules/luci-base/htdocs/luci-static/resources/form.js:2036
-#: modules/luci-base/htdocs/luci-static/resources/form.js:2342
+#: modules/luci-base/htdocs/luci-static/resources/form.js:2039
+#: modules/luci-base/htdocs/luci-static/resources/form.js:2345
 #: modules/luci-compat/luasrc/view/cbi/tblsection.htm:172
 #: modules/luci-compat/luasrc/view/cbi/tsection.htm:32
 msgid "This section contains no values yet"
@@ -5749,7 +5762,7 @@ msgstr "校時同步"
 msgid "Time interval for rekeying GTK"
 msgstr "重新加密 GTK 的時間間隔"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:122
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:129
 msgid "Timezone"
 msgstr "時區"
 
@@ -6036,7 +6049,7 @@ msgstr "上線時間"
 msgid "Use <code>/etc/ethers</code>"
 msgstr "採用 <code>/etc/ethers</code>"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:267
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:274
 msgid "Use DHCP advertised servers"
 msgstr "使用 DHCP 通告的伺服器"
 
@@ -6247,7 +6260,7 @@ msgstr "虛擬動態介面"
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1025
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1026
 msgid "WDS"
-msgstr "無線分散系統WDS"
+msgstr "無線分散系統 WDS"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1293
 msgid "WEP Open System"
@@ -6281,8 +6294,8 @@ msgstr ""
 msgid "Waiting for device..."
 msgstr "正在等待裝置中…"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:166
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:176
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:173
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:183
 msgid "Warning"
 msgstr "警告"
 
@@ -6367,11 +6380,11 @@ msgstr "無線網路已啟用"
 msgid "Write received DNS requests to syslog"
 msgstr "寫入已接收的DNS請求到系統日誌中"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:158
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:165
 msgid "Write system log to file"
 msgstr "將系統日誌寫入檔案"
 
-#: modules/luci-base/htdocs/luci-static/resources/form.js:3457
+#: modules/luci-base/htdocs/luci-static/resources/form.js:3460
 #: protocols/luci-proto-vpnc/htdocs/luci-static/resources/protocol/vpnc.js:109
 msgid "Yes"
 msgstr "是"
@@ -6398,19 +6411,19 @@ msgid ""
 "You must enable JavaScript in your browser or LuCI will not work properly."
 msgstr "在瀏覽器您必須啟用JavaScript否則LuCI無法正常運作."
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:190
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:197
 msgid "ZRam Compression Algorithm"
 msgstr "ZRam 壓縮演算法"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:197
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:204
 msgid "ZRam Compression Streams"
 msgstr "ZRam 壓縮串流"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:183
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:190
 msgid "ZRam Settings"
 msgstr "ZRam 設定"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:185
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:192
 msgid "ZRam Size"
 msgstr "ZRam 大小"
 
@@ -6593,13 +6606,13 @@ msgstr "不"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/switch.js:76
 msgid "no link"
-msgstr "不連線"
+msgstr "未連線"
 
 #: modules/luci-base/htdocs/luci-static/resources/validation.js:55
 msgid "non-empty value"
 msgstr "非空值"
 
-#: modules/luci-base/htdocs/luci-static/resources/form.js:2838
+#: modules/luci-base/htdocs/luci-static/resources/form.js:2841
 msgid "none"
 msgstr "無"
 
@@ -6679,7 +6692,7 @@ msgstr "超安全"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/switch.js:350
 msgid "tagged"
-msgstr "標記的"
+msgstr "已選"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1433
 msgid "time units (TUs / 1.024 ms) [1000-65535]"
@@ -6701,7 +6714,7 @@ msgstr "未知"
 msgid "unlimited"
 msgstr "無限"
 
-#: modules/luci-base/htdocs/luci-static/resources/form.js:3186
+#: modules/luci-base/htdocs/luci-static/resources/form.js:3189
 #: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:76
 #: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:138
 #: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:369
@@ -6720,7 +6733,7 @@ msgstr "尚未指定 - 或 -建立:"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/switch.js:348
 msgid "untagged"
-msgstr "尚未標籤"
+msgstr "未選"
 
 #: modules/luci-base/htdocs/luci-static/resources/validation.js:242
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:121
